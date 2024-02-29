@@ -1,0 +1,55 @@
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    font-size: 12pt;
+}
+body{
+    background-image: url(../img_sound/Background.jpg);
+    background-size: cover;
+}
+
+fieldset, legend{
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+legend{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+table{
+    border: 10px;
+    margin:auto;
+}
+
+td, th{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+tr:hover{
+    background-color: darkgoldenrod;
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#paragraph{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: coral;
+}
+
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    background-color: white;
+}

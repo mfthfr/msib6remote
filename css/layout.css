@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url('../img_sound/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.navbar{
+    background-color: darkcyan;
+    overflow: hidden;
+    justify-content:center;
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px 5px;
+    background-color: darkgray;
+}
+
+.navbar a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    text-align: justify;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color:darkcyan;
+    padding: 2px;
+    text-align: center;
+}
